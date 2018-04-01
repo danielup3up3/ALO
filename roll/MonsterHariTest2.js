@@ -61,7 +61,7 @@ var rply ={type : 'text'}; //type是必需的,但可以更改
 			
 		
     
-    }else if(monsterHP < 500){
+    }else if(monsterHP < 500 && monsterHP > 0){
 			//紅血區域
 			times = 1
 	    
