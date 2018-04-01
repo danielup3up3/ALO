@@ -117,6 +117,8 @@ function parseInput(rplyToken, inputStr) {
 	//RoadXX猜拳
 	if (trigger.match(/^猜拳$/) != null) return exports.roadXX.main(mainMsg[1]);
 	
+	if (trigger.match(/^新手登入$/) != null) return exports.newplayer.main(mainMsg[1]);
+	
 	
 	//////////////////////////怪物資料彙整區////////////////////////////////
 	
