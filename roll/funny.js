@@ -152,8 +152,8 @@ function RockPaperScissors(HandToCal, text) {
 ////////////////////////////////////////
  
 function Hari(){
-	rply.text = '獵人哈里\
-				\n HP 36/36  危險度: C';
+	rply.text = 'Lv.5 火精靈侍衛A\
+				\n HP 1000/1000 ';
 	return rply;
 }
 
