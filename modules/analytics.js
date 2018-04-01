@@ -120,6 +120,11 @@ function parseInput(rplyToken, inputStr) {
 	
 	if (trigger.match(/^新手登入$/) != null) return exports.newplayer.main(mainMsg[1]);
 	
+	//////////////////////////主線劇情彙整區////////////////////////////////
+	
+	//序章劇情
+	if (trigger.match(/^序章劇情$/) != null) return exports.storiesZERO.main(mainMsg[1]);
+	
 	
 	//////////////////////////怪物資料彙整區////////////////////////////////
 	
