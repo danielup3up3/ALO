@@ -124,6 +124,8 @@ function parseInput(rplyToken, inputStr) {
 	
 	//序章劇情
 	if (trigger.match(/^序章劇情$/) != null) return exports.storiesZERO.main(mainMsg[1]);
+	//第一章劇情
+	if (trigger.match(/^第一章劇情$/) != null) return exports.storiesONE.main(mainMsg[1]);
 	
 	
 	//////////////////////////怪物資料彙整區////////////////////////////////
@@ -131,6 +133,7 @@ function parseInput(rplyToken, inputStr) {
 	//新手戰鬥
 	if (trigger.match(/^新手戰鬥$/) != null) return exports.funny.Hari() ;
 	
+	if (trigger.match(/^戰鬥002$/) != null) return exports.funny.Hari2() ;
 	
 	
 	
@@ -138,6 +141,7 @@ function parseInput(rplyToken, inputStr) {
 	
 	//哈里
 	if (trigger.match(/^回合結束001$/) != null) return exports.MonsterHariTest.main(mainMsg[1]);
+	if (trigger.match(/^回合結束002$/) != null) return exports.MonsterHariTest2.main(mainMsg[1]);
 	
 	/*tarot 指令
 	if (trigger.match(/猜拳/) != null) {
