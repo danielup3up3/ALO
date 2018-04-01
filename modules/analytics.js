@@ -86,7 +86,7 @@ function parseInput(rplyToken, inputStr) {
 	if (trigger.match(/立flag|死亡flag/) != null) return exports.funny.BStyleFlagSCRIPTS() ;	
 	
 	//鴨霸獸指令開始於此
-	if (trigger.match(/沙希醬|沙希/) != null) return exports.funny.randomReply() ;
+	if (trigger.match(/瑪姬娜醬|瑪姬娜/) != null) return exports.funny.randomReply() ;
 	if (trigger.match(/C8763|星爆氣流斬/) != null) return exports.funny.C8763() ;
 	if (trigger.match(/^野$/) != null) return exports.funny.ya() ;
 	if (trigger.match(/^炸$/) != null) return exports.funny.zA() ;
@@ -96,8 +96,8 @@ function parseInput(rplyToken, inputStr) {
 	if (trigger.match(/^公告$/) != null) return exports.GameInformation.main(mainMsg[1]) ;
 	
 	//抽角 魔導書
-	if (trigger.match(/^降臨$/) != null) return exports.gachaC.main(mainMsg[1],mainMsg[2]);	//角色降臨指令
-	if (trigger.match(/^共鳴$/) != null) return exports.gachaB.main(mainMsg[1],mainMsg[2]);	//魔導書共鳴指令
+	if (trigger.match(/^夥伴招募$/) != null) return exports.gachaC.main(mainMsg[1],mainMsg[2]);	//角色降臨指令
+	if (trigger.match(/^武器$/) != null) return exports.gachaB.main(mainMsg[1],mainMsg[2]);	//魔導書共鳴指令
 	
 	//登入
 	if (trigger.match(/^登入$/) != null) return exports.Loginawards.main(mainMsg[1],mainMsg[2]);	//登入轉輪
