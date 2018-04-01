@@ -80,7 +80,7 @@ var rply ={type : 'text'}; //type是必需的,但可以更改
 			SpecialSkill.length = 1;
 			SpecialSkill = ['炎之刃'];
       
-      }else if(monsterHP = 0){
+      }else if(monsterHP = '擊敗'){
 				//設定說明文內容
 				rply.text ='火精靈侍衛B被擊敗了\
 				\n 全隊獲得了120EXP及100G';
