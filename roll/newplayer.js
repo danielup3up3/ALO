@@ -44,8 +44,7 @@ var rply ={type : 'text'}; //type是必需的,但可以更改
 				
 				//設定說明文內容
 				rply.text =  '【角色創建】\
-					\n 歡迎來到Alfheim Online\
-                                        \n 我是導航妖精 請多指教，現在開始教學吧。\                   
+					\n 歡迎來到Alfheim Online\                 
                                         \n 請先輸入"新手登入 第一步"';
 				//
 				
