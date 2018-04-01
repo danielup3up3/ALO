@@ -8,7 +8,7 @@ var rply ={type : 'text'}; //type是必需的,但可以更改
 		
 		if(step == '第一節'){
     
-			rply.text = 【第一章:The Begining】 '
+			rply.text =  '【第一章:The Begining】\
           \n 玩家:終於阿!我存了好久的錢終於買到了這款遊戲 \
 					\n 我的旅途馬上就要開始了呢，感覺全身的細胞都沸騰起來了!!\
           \n 恩...!?不會是卡圖了吧...我才正要被傳送到種族出生地...。\
