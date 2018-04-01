@@ -18,8 +18,8 @@ var rply ={type : 'text'}; //type是必需的,但可以更改
 		var SpecialChance = 0;//特殊技能機率
     
     
-    //哈里HP 36/36
-    if(monsterHP >= 30){
+    //火精靈AHP 1000/1000
+    if(monsterHP >= 800){
 			//綠血區域時
 			times = 1
 	    
@@ -31,16 +31,16 @@ var rply ={type : 'text'}; //type是必需的,但可以更改
 			
 			//設定綠血攻擊模式
 			SkillOne.length = 1;
-			SkillOne = ['星之射擊'];
+			SkillOne = ['斬擊'];
 			
 			SkillTwo.length = 1;
-			SkillTwo = ['掉落陷阱'];
+			SkillTwo = ['初級火焰球'];
 			
 			SpecialSkill.length = 1;
-			SpecialSkill = ['斷罪流星'];
+			SpecialSkill = ['炎之刃'];
 			
       
-      }else if(monsterHP < 30 && monsterHP >= 12){
+      }else if(monsterHP < 800 && monsterHP >= 200){
 			//黃血區域
 		times = 1
 	      
@@ -51,13 +51,13 @@ var rply ={type : 'text'}; //type是必需的,但可以更改
 			
 			//設定黃血攻擊模式
 			SkillOne.length = 1;
-			SkillOne = ['星之射擊'];
+			SkillOne = ['斬擊'];
 			
 			SkillTwo.length = 1;
-			SkillTwo = ['掉落陷阱'];
+			SkillTwo = ['初級火焰球'];
 			
 			SpecialSkill.length = 1;
-			SpecialSkill = ['斷罪流星'];
+			SpecialSkill = ['炎之刃'];
 			
 		
     
@@ -72,13 +72,13 @@ var rply ={type : 'text'}; //type是必需的,但可以更改
 			
 			//設定黃血攻擊模式
 			SkillOne.length = 1;
-			SkillOne = ['星之射擊'];
+			SkillOne = ['斬擊'];
 			
 			SkillTwo.length = 1;
-			SkillTwo = ['掉落陷阱'];
+			SkillTwo = ['初級火焰球'];
 			
 			SpecialSkill.length = 1;
-			SpecialSkill = ['斷罪流星'];
+			SpecialSkill = ['炎之刃'];
       
       }else{
 				//設定說明文內容
@@ -108,20 +108,20 @@ var rply ={type : 'text'}; //type是必需的,但可以更改
 		if(temp > TwoChance + SpecialChance){
     
 			SkillResult[i] = SkillOne[Math.floor((Math.random() * (SkillOne.length)) + 0)];
-				AttackResult[i] = '\哈里使用了' +  SkillResult[i]+ ' 造成了3點傷害跟暗箭-3' +'\
-                 \n 總共-6 END';
+				AttackResult[i] = '\火精靈侍衛A使用了' +  SkillResult[i]+ ' 造成了200點無屬性傷害' +'\
+                 \n END';
       
 		}else if(temp <=TwoChance + SpecialChance && temp >SpecialChance ){
     
 			SkillResult[i] = SkillTwo[Math.floor((Math.random() * (SkillTwo.length)) + 0)];
-				AttackResult[i] = '\哈里在你即將踏及之地設置了' +  SkillResult[i]+ ' 讓你下回合有50%機率無法行動' +'\
+				AttackResult[i] = '\火精靈侍衛A使用了' +  SkillResult[i]+ ' 造成了150點火屬性傷害' +'\
                  \n END';
         
 		}else if(temp <= SpecialChance){
 			
 			SkillResult[i] = SpecialSkill[Math.floor((Math.random() * (SpecialSkill.length)) + 0)];
-				AttackResult[i] = '\哈里使用了' +  SkillResult[i]+ ' 造成了14點傷害跟暗箭-3' + '\
-                  \n 總共-17 END';
+				AttackResult[i] = '\火精靈侍衛A使用了' +  SkillResult[i]+ ' 造成了300點火屬性傷害' + '\
+                  \n END';
 		}
 		
 		
