@@ -70,6 +70,29 @@ function C8763(){
 
 }
 
+function menu(){
+
+	rply.text = ' 【強化】 \
+			    \n\
+			    \n 「開啟條件:通過主線第三章」\
+                   \n 【招募】\
+			    \n\
+			    \n 「開啟條件:通過主線第二章」\
+                   \n 【活動公告】\
+			    \n\
+			    \n 「呼叫指令:公告」\
+                   \n 【副本】空中浮游城艾恩葛朗特\
+			    \n\
+			    \n 「開啟條件:通過主線第五章」\
+		\n 【商店】\
+			    \n\
+			    \n 「開啟條件:通過主線第三章」';
+
+	return rply;
+	
+}
+
+
 function ya(){
 
 	rply.text = '格';
@@ -405,6 +428,7 @@ module.exports = {
 	tarotCardReply,
 	C8763,
 	ya,
+	menu,
 	Hari,
 	zA
 };
