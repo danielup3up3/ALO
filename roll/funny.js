@@ -184,6 +184,12 @@ function Hari(){
 	return rply;
 }
 
+function Hari2(){
+	rply.text = 'Lv.5 火精靈侍衛B(怪物代碼002\
+				\n HP 2000/2000 ';
+	return rply;
+}
+
 
 
 
@@ -434,5 +440,6 @@ module.exports = {
 	ya,
 	menu,
 	Hari,
+	Hari2,
 	zA
 };
