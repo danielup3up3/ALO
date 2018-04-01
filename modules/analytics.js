@@ -91,6 +91,7 @@ function parseInput(rplyToken, inputStr) {
 	if (trigger.match(/^野$/) != null) return exports.funny.ya() ;
 	if (trigger.match(/^炸$/) != null) return exports.funny.zA() ;
 	if (trigger.match(/運氣|運勢/) != null) return exports.funny.randomLuck(mainMsg) ; //占卜運氣	
+	if (trigger.match(/^選單$/) != null) return exports.funny.menu() ;
 	
 	//遊戲公告指令
 	if (trigger.match(/^公告$/) != null) return exports.GameInformation.main(mainMsg[1]) ;
