@@ -40,12 +40,13 @@ var rply ={type : 'text'}; //type是必需的,但可以更改
      
      
       //設定說明文
-			else if(step == null){
+     }
+		else if(step == null){
 				
 				//設定說明文內容
 				rply.text =  '【角色創建】\
-					\n 歡迎來到Alfheim Online\                 
-                                        \n 請先輸入"新手登入 第一步"';
+					\n 歡迎來到妖精之國\                 
+                                       
 				//
 				
 				return rply;//中斷+回傳值用
