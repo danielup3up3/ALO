@@ -120,8 +120,8 @@ function parseInput(rplyToken, inputStr) {
 	
 	//////////////////////////怪物資料彙整區////////////////////////////////
 	
-	//哈里
-	if (trigger.match(/^哈里挑戰1$/) != null) return exports.funny.Hari() ;
+	//新手戰鬥
+	if (trigger.match(/^新手戰鬥$/) != null) return exports.funny.Hari() ;
 	
 	
 	
