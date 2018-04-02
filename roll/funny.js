@@ -200,7 +200,13 @@ function Gbear(){
 
 function easyKaze(){
 	rply.text = 'Lv.25 風之世界樹守衛(怪物代碼B01\
-				\n HP 6000/6000 ';
+				\n HP 6,000/6,000 ';
+	return rply;
+}
+
+function easyKazeBoss(){
+	rply.text = 'Lv.30 BOSS神樹劍士(怪物代碼B03\
+				\n HP 200,000/200,000 ';
 	return rply;
 }
 
@@ -443,6 +449,8 @@ module.exports = {
 	RockPaperScissors,
 	MultiDrawTarot,
 	NomalDrawTarot,
+	easyKaze,
+	easyKazeBoss,
 	SortIt,
 	tarotRevReply,
 	choice,
