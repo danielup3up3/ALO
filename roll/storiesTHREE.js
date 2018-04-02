@@ -57,7 +57,8 @@ var rply ={type : 'text'}; //type是必需的,但可以更改
           \n 伊芙:我們可以先去【世界樹】的第一層中訓練升級，裡面還會掉落稀有道具跟武器喔!\
           \n \
 					\n 章節Clear  【Reward】: 星輝石*5  \
-          \n 篇章Clear  【Reward】: 主題副本【世界樹】功能開啟';
+          \n 篇章Clear  【Reward】: 主題副本【世界樹】功能開啟\
+          \n 【Reward2】: 自由討伐關【吉貝爾 Easy】開啟';
 				//
 				
 				return rply;//中斷+回傳值用
