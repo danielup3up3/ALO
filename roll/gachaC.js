@@ -66,16 +66,16 @@ var rply ={type : 'text'}; //type是必需的,但可以更改
 				return rply;	
 			  	}
 		}else if(DrawPool == 1){
-			CharacterList1.length = 3;
-			CharacterList1 = ['A','B','C'];
-			CharacterList2.length = 3;
-			CharacterList2 = ['AA','BB','CC'];
+			CharacterList1.length = 4;
+			CharacterList1 = ['雷希亞(風)','威爾斯(火)','傑昂(土)','智那(水)'];
+			CharacterList2.length = 5;
+			CharacterList2 = ['彌雅(風)','佐久間(火)','夜詠(闇)','萊恩(土)','亞修(水)'];
 			CharacterList3.length = 3;
-			CharacterList3 = ['AAA','BBB','CCC'];
+			CharacterList3 = ['桐谷直葉(風)','壺井遼太郎(火)','紺野木綿季(闇)','結城明日奈(水)','艾基爾(土)'];
 			CharacterList4.length = 3;
-			CharacterList4= ['AAAA','BBBB','CCCC'];
-			CharacterList5.length = 2;
-			CharacterList5= ['路卡','露'];
+			CharacterList4= ['雷根(風)','吉貝爾(火)','真御鎖闇(闇)','多由良(土)','宗太(水)'];
+			CharacterList5.length = 5;
+			CharacterList5= ['伊芙(水)','西澤爾(闇)','齊維(土)','蓮和(火)','姌夜(風)'];
 			
 			characterChance1 = 50;
 			characterChance2 = 30;
