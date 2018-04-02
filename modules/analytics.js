@@ -141,9 +141,9 @@ function parseInput(rplyToken, inputStr) {
 	
 	if (trigger.match(/^戰鬥003|^吉貝爾easy/) != null) return exports.funny.Gbear() ;
 	//風之世界樹守衛(初級)
-	if (trigger.match(/^戰鬥B01$/) != null) return exports.funny.easyKaze() ;
+	if (trigger.match(/^戰鬥011 != null) return exports.funny.easyKaze() ;
 	//風之世界樹BOSS(初級)
-	if (trigger.match(/^戰鬥B03$/) != null) return exports.funny.easyKazeBoss() ;
+	if (trigger.match(/^戰鬥013 != null) return exports.funny.easyKazeBoss() ;
 	
 	//////////////////////////怪物實戰設定區////////////////////////////////
 	
@@ -152,9 +152,9 @@ function parseInput(rplyToken, inputStr) {
 	if (trigger.match(/^回合結束002$/) != null) return exports.MonsterHariTest2.main(mainMsg[1]);
 	if (trigger.match(/^回合結束003$/) != null) return exports.MonsterGbear.main(mainMsg[1]);
 	//風之世界樹守衛(初級)
-	if (trigger.match(/^回合結束B01$/) != null) return exports.MonstereasyKaze.main(mainMsg[1]);
+	if (trigger.match(/^回合結束011!= null) return exports.MonstereasyKaze.main(mainMsg[1]);
 	//風之世界樹BOSS(初級)
-	if (trigger.match(/^回合結束B03$/) != null) return exports.MonstereasyKazeBoss.main(mainMsg[1]);
+	if (trigger.match(/^回合結束013 != null) return exports.MonstereasyKazeBoss.main(mainMsg[1]);
 	
 	/*tarot 指令
 	if (trigger.match(/猜拳/) != null) {
