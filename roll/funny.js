@@ -198,6 +198,11 @@ function Gbear(){
 }
 
 
+function easyKaze(){
+	rply.text = 'Lv.25 風之世界樹守衛(怪物代碼B01\
+				\n HP 6000/6000 ';
+	return rply;
+}
 
 
 
