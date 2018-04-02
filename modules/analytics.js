@@ -146,6 +146,7 @@ function parseInput(rplyToken, inputStr) {
 	//哈里
 	if (trigger.match(/^回合結束001$/) != null) return exports.MonsterHariTest.main(mainMsg[1]);
 	if (trigger.match(/^回合結束002$/) != null) return exports.MonsterHariTest2.main(mainMsg[1]);
+	if (trigger.match(/^回合結束003$/) != null) return exports.MonsterGbear.main(mainMsg[1]);
 	
 	/*tarot 指令
 	if (trigger.match(/猜拳/) != null) {
