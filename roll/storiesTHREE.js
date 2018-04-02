@@ -58,7 +58,7 @@ var rply ={type : 'text'}; //type是必需的,但可以更改
           \n \
 					\n 章節Clear  【Reward】: 星輝石*5  \
           \n 篇章Clear  【Reward】: 主題副本【世界樹】功能開啟\
-          \n 【Reward2】: 自由討伐關【吉貝爾 Easy】開啟';
+          \n 【Reward2】: 自由討伐關【吉貝爾Easy】開啟';
 				//
 				
 				return rply;//中斷+回傳值用
