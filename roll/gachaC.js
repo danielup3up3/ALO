@@ -62,7 +62,7 @@ var rply ={type : 'text'}; //type是必需的,但可以更改
 				return rply;
 				
 			  }else{
-				rply.text = '本招募無法使用' + GachaTimes +'招募喔\n 如果想看本招募詳細內容，請輸入 [招募 ' + DrawPool + ']';
+				rply.text = '本招募無法使用' + GachaTimes +'招募喔\n 如果想看本招募詳細內容，請輸入 [夥伴招募 ' + DrawPool + ']';
 				return rply;	
 			  	}
 		}else if(DrawPool == 1){
@@ -106,36 +106,36 @@ var rply ={type : 'text'}; //type是必需的,但可以更改
 					\n 單抽 需5星輝石\
                                         \n 十一連 需50星輝石\
 					\n\
-					\n 想要招募的話，請輸入 [招募 0 招募方式] ';
+					\n 想要招募的話，請輸入 [夥伴招募 0 招募方式] ';
 				
 				return rply;
 				
 			  }else{
-				rply.text = '本招募無法使用' + GachaTimes +'招募喔\n 如果想看本招募詳細內容，請輸入 [招募 ' + DrawPool + ']';
+				rply.text = '本招募無法使用' + GachaTimes +'招募喔\n 如果想看本招募詳細內容，請輸入 [夥伴招募 ' + DrawPool + ']';
 				return rply;	
 			  	}
 		}else if(DrawPool == null){
 			
-			rply.text = '【降臨目錄】目前的降臨一覽表 \
+			rply.text = '【卡池目錄】目前的卡池一覽表 \
 				\n\
 				\n  0 【起始招募(首抽)】 \
 				\n  1 【限定招募】第一彈主題卡池「妖精之舞」(NEW) \
 				\n  2 【通常招募】常駐星輝石招募 \
 				\n\
-				\n 如果想看詳細招募內容，請輸入 [招募 招募編號]';
+				\n 如果想看詳細招募內容，請輸入 [夥伴招募 招募編號]';
 				return rply;
 			
 		}else{
 			
 			rply.text = '找不到招募編號['+ DrawPool+ ']的招募喔\
 				\n\
-				\n【降臨目錄】目前的降臨一覽表 \
+				\n【【卡池目錄】目前的卡池一覽表 \
 				\n\
 				\n  0 【起始招募(首抽)】 \
 				\n  1 【限定招募】第一彈主題卡池「妖精之舞」(NEW) \
 				\n  2 【通常招募】常駐星輝石招募 \
 				\n\
-				\n 如果想看詳細招募內容，請輸入 [招募 招募編號]';
+				\n 如果想看詳細招募內容，請輸入 [夥伴招募 招募編號]';
 				return rply;
 			
 		}
