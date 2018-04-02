@@ -139,7 +139,7 @@ function parseInput(rplyToken, inputStr) {
 	
 	if (trigger.match(/^戰鬥002$/) != null) return exports.funny.Hari2() ;
 	
-	if (trigger.match(/^戰鬥002|^吉貝爾easy/) != null) return exports.funny.Gbear() ;
+	if (trigger.match(/^戰鬥003|^吉貝爾easy/) != null) return exports.funny.Gbear() ;
 	
 	
 	
