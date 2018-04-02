@@ -191,6 +191,12 @@ function Hari2(){
 }
 
 
+function Gbear(){
+	rply.text = 'Lv.50 吉貝爾(怪物代碼003\
+				\n HP 10000/10000 ';
+	return rply;
+}
+
 
 
 
@@ -440,6 +446,7 @@ module.exports = {
 	ya,
 	menu,
 	Hari,
+	Gbear,
 	Hari2,
 	zA
 };
