@@ -128,6 +128,8 @@ function parseInput(rplyToken, inputStr) {
 	if (trigger.match(/^第一章劇情$/) != null) return exports.storiesONE.main(mainMsg[1]);
 	//第二章劇情
 	if (trigger.match(/^第二章劇情$/) != null) return exports.storiesTWO.main(mainMsg[1]);
+	//第三章劇情
+	if (trigger.match(/^第三章劇情$/) != null) return exports.storiesTHREE.main(mainMsg[1]);
 	
 	
 	//////////////////////////怪物資料彙整區////////////////////////////////
