@@ -142,6 +142,8 @@ function parseInput(rplyToken, inputStr) {
 	if (trigger.match(/^戰鬥003|^吉貝爾easy/) != null) return exports.funny.Gbear() ;
 	//風之世界樹守衛(初級)
 	if (trigger.match(/^戰鬥B01$/) != null) return exports.funny.easyKaze() ;
+	//風之世界樹BOSS(初級)
+	if (trigger.match(/^戰鬥B03$/) != null) return exports.funny.easyKazeBoss() ;
 	
 	//////////////////////////怪物實戰設定區////////////////////////////////
 	
