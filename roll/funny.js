@@ -199,13 +199,13 @@ function Gbear(){
 
 
 function easyKaze(){
-	rply.text = 'Lv.25 風之世界樹守衛(怪物代碼B01\
+	rply.text = 'Lv.25 風之世界樹守衛(怪物代碼011\
 				\n HP 6,000/6,000 ';
 	return rply;
 }
 
 function easyKazeBoss(){
-	rply.text = 'Lv.30 BOSS神樹劍士(怪物代碼B03\
+	rply.text = 'Lv.30 BOSS神樹劍士(怪物代碼013\
 				\n HP 200,000/200,000 ';
 	return rply;
 }
