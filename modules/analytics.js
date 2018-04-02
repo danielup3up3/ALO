@@ -139,6 +139,8 @@ function parseInput(rplyToken, inputStr) {
 	
 	if (trigger.match(/^戰鬥002$/) != null) return exports.funny.Hari2() ;
 	
+	if (trigger.match(/^戰鬥003$/) != null) return exports.funny.Gbear() ;
+	
 	
 	
 	//////////////////////////怪物實戰設定區////////////////////////////////
