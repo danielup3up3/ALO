@@ -144,6 +144,8 @@ function parseInput(rplyToken, inputStr) {
 	if (trigger.match(/^戰鬥011$/) != null) return exports.funny.easyKaze() ;
 	//風之世界樹BOSS(初級)
 	if (trigger.match(/^戰鬥013$/) != null) return exports.funny.easyKazeBoss() ;
+	//SAO(1)
+	if (trigger.match(/^戰鬥101$/) != null) return exports.funny.Lv1SAOKaze() ;
 	
 	//////////////////////////怪物實戰設定區////////////////////////////////
 	
@@ -155,6 +157,8 @@ function parseInput(rplyToken, inputStr) {
 	if (trigger.match(/^回合結束011$/) != null) return exports.MonstereasyKaze.main(mainMsg[1]);
 	//風之世界樹BOSS(初級)
 	if (trigger.match(/^回合結束013$/) != null) return exports.MonstereasyKazeBoss.main(mainMsg[1]);
+	//SAO(1)
+	if (trigger.match(/^回合結束101$/) != null) return exports.MonLv1SAOKaze.main(mainMsg[1]);
 	
 	/*tarot 指令
 	if (trigger.match(/猜拳/) != null) {
