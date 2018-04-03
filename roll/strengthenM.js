@@ -128,7 +128,7 @@ var rply ={type : 'text'}; //type是必需的,但可以更改
 		}
 		
 		
-       let SKesult ='箱子內容:\n'
+       let SKesult ='強化結果:\n'
 		for(var i = 0;i<times;i++){
 			SKesult = SKesult + AttackResult[i];
 		}
