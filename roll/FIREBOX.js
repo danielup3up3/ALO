@@ -22,8 +22,8 @@ var rply ={type : 'text'}; //type是必需的,但可以更改
 			//綠血區域時
 			times = 1
 	    
-			OneChance = 80;
-			TwoChance = 20;
+			OneChance = 10;
+			TwoChance = 90;
 			SpecialChance = 0;
 		
 			//
