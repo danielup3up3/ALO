@@ -30,7 +30,7 @@ var rply ={type : 'text'}; //type是必需的,但可以更改
 			
 			//設定綠血攻擊模式
 			SkillOne.length = 4;
-			SkillOne = ['3000G','強化石(中)','銀之鍵*1','風之殘頁'];
+			SkillOne = ['3000G','強化石(中)','銀之鍵x1','風之殘頁'];
 			
 			SkillTwo.length = 4;
 			SkillTwo = ['【SR】神樹武=永恆之槍','【SR】神樹武=護城盾劍','【SR】神樹武=神照之杖','【SR】神樹武=絕嵐之劍'];
@@ -49,7 +49,7 @@ var rply ={type : 'text'}; //type是必需的,但可以更改
 			//
 			
 			SkillOne.length = 4;
-			SkillOne = ['5000G','強化石(中)','銀之鍵*3','翠風之頁'];
+			SkillOne = ['5000G','強化石(中)','銀之鍵x3','翠風之頁'];
 			
 			SkillTwo.length = 4;
 			SkillTwo = ['【SR】神樹武=永恆之槍','【SR】神樹武=護城盾劍','【SR】神樹武=神照之杖','【SR】神樹武=絕嵐之劍'];
@@ -69,7 +69,7 @@ var rply ={type : 'text'}; //type是必需的,但可以更改
 			
 			//設定黃血攻擊模式
 			SkillOne.length = 4;
-			SkillOne = ['10000G','強化石(中)','銀之鍵*5','神樹啟示'];
+			SkillOne = ['10000G','強化石(中)','銀之鍵x5','神樹啟示'];
 			
 			SkillTwo.length = 4;
 			SkillTwo = ['【SR】神樹武=永恆之槍','【SR】神樹武=護城盾劍','【SR】神樹武=神照之杖','【SR】神樹武=絕嵐之劍'];
