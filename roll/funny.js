@@ -216,6 +216,12 @@ function Lv1SAOKaze(){
 	return rply;
 }
 
+function Lv1SAOKazeBoss(){
+	rply.text = 'Lv.30 BOSS涅里梅斯(怪物代碼111\
+				\n HP 60,000/60,000 ';
+	return rply;
+}
+
 
 
 
