@@ -34,10 +34,10 @@ var rply ={type : 'text'}; //type是必需的,但可以更改
 			SkillOne = ['密林毒氣'];
 			
 			SkillTwo.length = 1;
-			SkillTwo = ['巨木橫掃'];
+			SkillTwo = ['樹妖之怒'];
 			
 			SpecialSkill.length = 1;
-			SpecialSkill = ['樹妖之怒'];
+			SpecialSkill = ['巨木橫掃'];
 			
       
       }else if(monsterHP < 30000 && monsterHP >= 5000){
@@ -54,10 +54,10 @@ var rply ={type : 'text'}; //type是必需的,但可以更改
 			SkillOne = ['密林毒氣'];
 			
 			SkillTwo.length = 1;
-			SkillTwo = ['巨木橫掃'];
+			SkillTwo = ['樹妖之怒'];
 			
 			SpecialSkill.length = 1;
-			SpecialSkill = ['樹妖之怒'];
+			SpecialSkill = ['巨木橫掃'];
 			
 		
     
@@ -75,10 +75,10 @@ var rply ={type : 'text'}; //type是必需的,但可以更改
 			SkillOne = ['密林毒氣'];
 			
 			SkillTwo.length = 1;
-			SkillTwo = ['巨木橫掃'];
+			SkillTwo = ['樹妖之怒'];
 			
 			SpecialSkill.length = 1;
-			SpecialSkill = ['樹妖之怒'];
+			SpecialSkill = ['巨木橫掃'];
       
       }else if(monsterHP = '擊敗'){
 				//設定說明文內容
@@ -122,13 +122,13 @@ var rply ={type : 'text'}; //type是必需的,但可以更改
 		}else if(temp <=TwoChance + SpecialChance && temp >SpecialChance ){
     
 			SkillResult[i] = SkillTwo[Math.floor((Math.random() * (SkillTwo.length)) + 0)];
-				AttackResult[i] = '\涅里梅斯使用了' +  SkillResult[i]+ ' 造成了全體400點風屬性傷害' +'\
+				AttackResult[i] = '\涅里梅斯使用了' +  SkillResult[i]+ ' 使自己下次風屬性傷害+100%(可疊加) ' +'\
                  \n END';
         
 		}else if(temp <= SpecialChance){
 			
 			SkillResult[i] = SpecialSkill[Math.floor((Math.random() * (SpecialSkill.length)) + 0)];
-				AttackResult[i] = '\涅里梅斯使用了' +  SkillResult[i]+ ' 使自己下次風屬性傷害+100%(可疊加)' + '\
+				AttackResult[i] = '\涅里梅斯使用了' +  SkillResult[i]+ ' 造成了全體400點風屬性傷害' + '\
                   \n END';
 		}
 		
