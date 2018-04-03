@@ -120,6 +120,9 @@ function parseInput(rplyToken, inputStr) {
 	
 	if (trigger.match(/^新手登入$/) != null) return exports.newplayer.main(mainMsg[1]);
 	
+	////////////////////////強化///////////////////
+	if (trigger.match(/^武器強化$/) != null) return exports.strengthenM.main(mainMsg[1]);
+	
 	//////////////////////////主線劇情彙整區////////////////////////////////
 	
 	//序章劇情
@@ -150,6 +153,7 @@ function parseInput(rplyToken, inputStr) {
 	//SAO(1BOSS)
 	if (trigger.match(/^戰鬥111$/) != null) return exports.funny.Lv1SAOKazeBoss() ;
 	if (trigger.match(/^戰鬥122$/) != null) return exports.funny.Lv1SAOFireBoss() ;
+	
 	
 	//////////////////////////怪物實戰設定區////////////////////////////////
 	
