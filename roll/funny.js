@@ -210,6 +210,11 @@ function easyKazeBoss(){
 	return rply;
 }
 
+function Lv1SAOKaze(){
+	rply.text = 'Lv.20 迷宮風妖(怪物代碼101\
+				\n HP 8,000/8,000 ';
+	return rply;
+}
 
 
 
@@ -459,6 +464,7 @@ module.exports = {
 	ya,
 	menu,
 	Hari,
+	Lv1SAOKaze,
 	Gbear,
 	Hari2,
 	zA
