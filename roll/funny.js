@@ -471,6 +471,7 @@ module.exports = {
 	menu,
 	Hari,
 	Lv1SAOKaze,
+	Lv1SAOKazeBoss,
 	Gbear,
 	Hari2,
 	zA
