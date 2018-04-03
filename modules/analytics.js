@@ -164,6 +164,12 @@ function parseInput(rplyToken, inputStr) {
 	//SAO(1BOSS)
 	if (trigger.match(/^回合結束111$/) != null) return exports.MonLv1SAOKazeBoss.main(mainMsg[1]);
 	
+	
+	
+	
+	////////////////////////BOXXXX///////////////////
+	if (trigger.match(/^迷宮武器箱$/) != null) return exports.SAOBossBOX.main(mainMsg[1]);
+	
 	/*tarot 指令
 	if (trigger.match(/猜拳/) != null) {
 		return RockPaperScissors(inputStr, mainMsg[1]);
