@@ -82,7 +82,7 @@ var rply ={type : 'text'}; //type是必需的,但可以更改
       
       }else if(monsterHP = '擊敗'){
 				//設定說明文內容
-				rply.text ='BOSS涅里梅斯被擊敗了\
+				rply.text ='BOSS武士之魂被擊敗了\
 				\n 全隊獲得了2000EXP及1000G';
 				//
 				
