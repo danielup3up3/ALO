@@ -41,7 +41,7 @@ var rply ={type : 'text'}; //type是必需的,但可以更改
       
       }else if(stype == 1){
 			//黃血區域
-		times = 3
+		times = 1
 	      
 			OneChance = 50;
 			TwoChance = 45;
@@ -61,7 +61,7 @@ var rply ={type : 'text'}; //type是必需的,但可以更改
     
     }else if(stype == 2){
 			//紅血區域
-			times = 5
+			times = 1
 	    
 			OneChance = 40;
 			TwoChance = 40;
