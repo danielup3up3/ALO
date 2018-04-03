@@ -168,7 +168,7 @@ function parseInput(rplyToken, inputStr) {
 	
 	
 	////////////////////////BOXXXX///////////////////
-	if (trigger.match(/^迷宮武器箱$/) != null) return exports.SAOBossBOX.main(mainMsg[1]);
+	if (trigger.match(/^風迷宮武器箱$/) != null) return exports.KAZEBOX.main(mainMsg[1]);
 	
 	/*tarot 指令
 	if (trigger.match(/猜拳/) != null) {
