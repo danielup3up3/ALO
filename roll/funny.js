@@ -222,6 +222,18 @@ function Lv1SAOKazeBoss(){
 	return rply;
 }
 
+function Lv1SAOFire(){
+	rply.text = 'Lv.20 炙熱野狼(怪物代碼102\
+				\n HP 8,000/8,000 ';
+	return rply;
+}
+
+function Lv1SAOFireBoss(){
+	rply.text = 'Lv.30 BOSS武士之魂(怪物代碼122\
+				\n HP 60,000/60,000 ';
+	return rply;
+}
+
 
 
 
@@ -472,6 +484,8 @@ module.exports = {
 	Hari,
 	Lv1SAOKaze,
 	Lv1SAOKazeBoss,
+	Lv1SAOFire,
+	Lv1SAOFireBoss,
 	Gbear,
 	Hari2,
 	zA
