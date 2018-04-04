@@ -36,7 +36,7 @@ var rply ={type : 'text'}; //type是必需的,但可以更改
 			SkillTwo = ['【SR】闇迷宮武=虛夜魔弓','【SR】闇迷宮武=叛逆拳套','【SR】闇迷宮武=虛空盾劍','【SR】闇迷宮武=絕影之劍'];
 			
 			SkillTwo.length = 4;
-			SkillTwo = ['【SSR】闇迷宮武=虛夜魔弓','【SSR】闇迷宮武=叛逆拳套','【SSR】闇迷宮武=虛空盾劍','【SSR】闇迷宮武=絕影之劍'];
+			SpecialSkill = ['【SSR】闇迷宮武=虛夜魔弓','【SSR】闇迷宮武=叛逆拳套','【SSR】闇迷宮武=虛空盾劍','【SSR】闇迷宮武=絕影之劍'];
 			
       
       }else if(stype == 1){
@@ -56,7 +56,7 @@ var rply ={type : 'text'}; //type是必需的,但可以更改
 			SkillTwo = ['【SR】闇迷宮武=虛夜魔弓','【SR】闇迷宮武=叛逆拳套','【SR】闇迷宮武=虛空盾劍','【SR】闇迷宮武=絕影之劍'];
 			
 			SkillTwo.length = 4;
-			SkillTwo = ['【SSR】闇迷宮武=虛夜魔弓','【SSR】闇迷宮武=叛逆拳套','【SSR】闇迷宮武=虛空盾劍','【SSR】闇迷宮武=絕影之劍'];
+			SpecialSkill = ['【SSR】闇迷宮武=虛夜魔弓','【SSR】闇迷宮武=叛逆拳套','【SSR】闇迷宮武=虛空盾劍','【SSR】闇迷宮武=絕影之劍'];
 		
     
     }else if(stype == 2){
@@ -76,7 +76,7 @@ var rply ={type : 'text'}; //type是必需的,但可以更改
 			SkillTwo = ['【SR】闇迷宮武=虛夜魔弓','【SR】闇迷宮武=叛逆拳套','【SR】闇迷宮武=虛空盾劍','【SR】闇迷宮武=絕影之劍'];
 			
 			SkillTwo.length = 4;
-			SkillTwo = ['【SSR】闇迷宮武=虛夜魔弓','【SSR】闇迷宮武=叛逆拳套','【SSR】闇迷宮武=虛空盾劍','【SSR】闇迷宮武=絕影之劍'];
+			SpecialSkill = ['【SSR】闇迷宮武=虛夜魔弓','【SSR】闇迷宮武=叛逆拳套','【SSR】闇迷宮武=虛空盾劍','【SSR】闇迷宮武=絕影之劍'];
       
       }else if(stype == 3){
 				//設定說明文內容
