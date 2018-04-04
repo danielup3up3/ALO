@@ -533,6 +533,8 @@ module.exports = {
 	Lv1SAOWaterBoss,
 	Lv1SAODark,
 	Lv1SAODarkBoss,
+	Lv1SAOSoil,
+	Lv1SAOSoilBoss,
 	Gbear,
 	Hari2,
 	zA
