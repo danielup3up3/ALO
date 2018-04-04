@@ -71,10 +71,10 @@ var rply ={type : 'text'}; //type是必需的,但可以更改
 			
 			//設定黃血攻擊模式
 				SkillOne.length = 1;
-			SkillOne = ['斷鋼聖劍'];
+			SkillOne = ['斷鋼聖劍(且進入衰弱狀態)'];
 			
 			SkillTwo.length = 1;
-			SkillTwo = ['空間重壓'];
+			SkillTwo = ['空間重壓(且進入衰弱狀態)'];
 			
 			SpecialSkill.length = 1;
 			SpecialSkill = ['斷罪之翼'];
@@ -121,7 +121,7 @@ var rply ={type : 'text'}; //type是必需的,但可以更改
 		}else if(temp <=TwoChance + SpecialChance && temp >SpecialChance ){
     
 			SkillResult[i] = SkillTwo[Math.floor((Math.random() * (SkillTwo.length)) + 0)];
-				AttackResult[i] = '\奧伯龍使用了' +  SkillResult[i]+ ' 造成了1800點光屬性全體傷害，且我方全體該回合有30%機率不能行動' +'\
+				AttackResult[i] = '\奧伯龍陷入爆走使用了' +  SkillResult[i]+ ' 造成了1800點光屬性全體傷害，且我方全體該回合有30%機率不能行動' +'\
                  \n END';
         
 		}else if(temp <= SpecialChance){
