@@ -144,6 +144,8 @@ function parseInput(rplyToken, inputStr) {
 	if (trigger.match(/^戰鬥002$/) != null) return exports.funny.Hari2() ;
 	
 	if (trigger.match(/^戰鬥003|^吉貝爾easy/) != null) return exports.funny.Gbear() ;
+	
+	if (trigger.match(/^戰鬥1001|^大空鬥技場easy/) != null) return exports.funny.SkyEasy() ;
 	//風之世界樹守衛(初級)
 	if (trigger.match(/^戰鬥011$/) != null) return exports.funny.easyKaze() ;
 	//風之世界樹BOSS(初級)
