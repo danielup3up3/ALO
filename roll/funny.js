@@ -235,13 +235,13 @@ function Lv1SAOFireBoss(){
 }
 
 function Lv1SAOWater(){
-	rply.text = 'Lv.20 蒼之遺魂(怪物代碼102\
+	rply.text = 'Lv.20 蒼之遺魂(怪物代碼103\
 				\n HP 8,000/8,000 ';
 	return rply;
 }
 
 function Lv1SAOWaterBoss(){
-	rply.text = 'Lv.30 BOSS焚海(怪物代碼122\
+	rply.text = 'Lv.30 BOSS焚海(怪物代碼133\
 				\n HP 60,000/60,000 ';
 	return rply;
 }
