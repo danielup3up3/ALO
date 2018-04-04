@@ -80,8 +80,8 @@ var rply ={type : 'text'}; //type是必需的,但可以更改
 			characterChance1 = 35;
 			characterChance2 = 25;
 			characterChance3 = 20;
-			characterChance4 = 12;
-			characterChance5 = 8;
+			characterChance4 = 10;
+			characterChance5 = 10;
 
 			if(GachaTimes =='單抽'){
 				times = 1;
