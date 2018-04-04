@@ -30,13 +30,13 @@ var rply ={type : 'text'}; //type是必需的,但可以更改
 			
 			//設定綠血攻擊模式
 			SkillOne.length = 4;
-			SkillOne = ['1000G','強化石(劣)','強化石(中)','紅蓮之珠(小)'];
+			SkillOne = ['1000G','強化石(劣)','強化石(中)','望月之珠(小)'];
 			
 			SkillTwo.length = 4;
-			SkillTwo = ['【SR】火迷宮武=緋焰撩亂弓','【SR】火迷宮武=守護火銃','【SR】火迷宮武=鳳凰之杖','【SR】火宮武=神炎之劍'];
+			SkillTwo = ['【SR】闇迷宮武=虛夜之弓','【SR】闇迷宮武=叛逆拳套','【SR】闇迷宮武=虛空之杖','【SR】闇迷宮武=絕影之劍'];
 			
 			SpecialSkill.length = 4;
-			SpecialSkill = ['【SSR】火迷宮武=緋焰撩亂弓','【SSR】火迷宮武=守護火銃','【SSR】火迷宮武=鳳凰之杖','【SSR】火宮武=神炎之劍'];
+			SpecialSkill = ['【SSR】闇迷宮武=虛夜之弓','【SSR】闇迷宮武=叛逆拳套','【SSR】闇迷宮武=虛空之杖','【SSR】闇迷宮武=絕影之劍'];
 			
       
       }else if(stype == 1){
@@ -53,10 +53,10 @@ var rply ={type : 'text'}; //type是必需的,但可以更改
 			SkillOne = ['5000G','強化石(優)','強化石(中)','紅蓮之珠(中)'];
 			
 		SkillTwo.length = 4;
-			SkillTwo = ['【SR】火迷宮武=緋焰撩亂弓','【SR】火迷宮武=守護火銃','【SR】火迷宮武=鳳凰之杖','【SR】火宮武=神炎之劍'];
+			SkillTwo = ['【SR】闇迷宮武=虛夜之弓','【SR】闇迷宮武=叛逆拳套','【SR】闇迷宮武=虛空之杖','【SR】闇迷宮武=絕影之劍'];
 			
 			SpecialSkill.length = 4;
-			SpecialSkill = ['【SSR】火迷宮武=緋焰撩亂弓','【SSR】火迷宮武=守護火銃','【SSR】火迷宮武=鳳凰之杖','【SSR】火宮武=神炎之劍'];
+			SpecialSkill = ['【SSR】闇迷宮武=虛夜之弓','【SSR】闇迷宮武=叛逆拳套','【SSR】闇迷宮武=虛空之杖','【SSR】闇迷宮武=絕影之劍'];
 		
     
     }else if(stype == 2){
@@ -73,10 +73,10 @@ var rply ={type : 'text'}; //type是必需的,但可以更改
 			SkillOne = ['10000G','強化石(優)','強化石(中)','紅蓮之珠(大)'];
 			
 			SkillTwo.length = 4;
-			SkillTwo = ['【SR】火迷宮武=緋焰撩亂弓','【SR】火迷宮武=守護火銃','【SR】火迷宮武=鳳凰之杖','【SR】火宮武=神炎之劍'];
+			SkillTwo = ['【SR】闇迷宮武=虛夜之弓','【SR】闇迷宮武=叛逆拳套','【SR】闇迷宮武=虛空之杖','【SR】闇迷宮武=絕影之劍'];
 			
 			SpecialSkill.length = 4;
-			SpecialSkill = ['【SSR】火迷宮武=緋焰撩亂弓','【SSR】火迷宮武=守護火銃','【SSR】火迷宮武=鳳凰之杖','【SSR】火宮武=神炎之劍'];
+			SpecialSkill = ['【SSR】闇迷宮武=虛夜之弓','【SSR】闇迷宮武=叛逆拳套','【SSR】闇迷宮武=虛空之杖','【SSR】闇迷宮武=絕影之劍'];
       
       }else if(stype == 3){
 				//設定說明文內容
