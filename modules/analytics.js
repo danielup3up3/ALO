@@ -154,11 +154,12 @@ function parseInput(rplyToken, inputStr) {
 	if (trigger.match(/^戰鬥101$/) != null) return exports.funny.Lv1SAOKaze() ;
 	if (trigger.match(/^戰鬥102$/) != null) return exports.funny.Lv1SAOFire() ;
 	if (trigger.match(/^戰鬥103$/) != null) return exports.funny.Lv1SAOWater() ;
+	if (trigger.match(/^戰鬥104$/) != null) return exports.funny.Lv1SAODark() ;
 	//SAO(1BOSS)
 	if (trigger.match(/^戰鬥111$/) != null) return exports.funny.Lv1SAOKazeBoss() ;
 	if (trigger.match(/^戰鬥122$/) != null) return exports.funny.Lv1SAOFireBoss() ;
 	if (trigger.match(/^戰鬥133$/) != null) return exports.funny.Lv1SAOWaterBoss() ;
-	
+	if (trigger.match(/^戰鬥144$/) != null) return exports.funny.Lv1SAODarkBoss() ;
 	
 	//////////////////////////怪物實戰設定區////////////////////////////////
 	
@@ -175,10 +176,12 @@ function parseInput(rplyToken, inputStr) {
 	if (trigger.match(/^回合結束101$/) != null) return exports.MonLv1SAOKaze.main(mainMsg[1]);
 	if (trigger.match(/^回合結束102$/) != null) return exports.MonLv1SAOFire.main(mainMsg[1]);
 	if (trigger.match(/^回合結束103$/) != null) return exports.MonLv1SAOWater.main(mainMsg[1]);
+	if (trigger.match(/^回合結束104$/) != null) return exports.MonLv1SAODark.main(mainMsg[1]);
 	//SAO(1BOSS)
 	if (trigger.match(/^回合結束111$/) != null) return exports.MonLv1SAOKazeBoss.main(mainMsg[1]);
 	if (trigger.match(/^回合結束122$/) != null) return exports.MonLv1SAOFireBoss.main(mainMsg[1]);
 	if (trigger.match(/^回合結束133$/) != null) return exports.MonLv1SAOWaterBoss.main(mainMsg[1]);
+	if (trigger.match(/^回合結束144$/) != null) return exports.MonLv1SAODarkBoss.main(mainMsg[1]);
 	
 	
 	
