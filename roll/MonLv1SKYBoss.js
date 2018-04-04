@@ -121,13 +121,13 @@ var rply ={type : 'text'}; //type是必需的,但可以更改
 		}else if(temp <=TwoChance + SpecialChance && temp >SpecialChance ){
     
 			SkillResult[i] = SkillTwo[Math.floor((Math.random() * (SkillTwo.length)) + 0)];
-				AttackResult[i] = '\奧伯龍陷入爆走使用了' +  SkillResult[i]+ ' 造成了1800點光屬性全體傷害，且我方全體該回合有30%機率不能行動' +'\
+				AttackResult[i] = '\奧伯龍使用了' +  SkillResult[i]+ ' 造成了1800點光屬性全體傷害，且我方全體該回合有30%機率不能行動' +'\
                  \n END';
         
 		}else if(temp <= SpecialChance){
 			
 			SkillResult[i] = SpecialSkill[Math.floor((Math.random() * (SpecialSkill.length)) + 0)];
-				AttackResult[i] = '\奧伯龍使用了' +  SkillResult[i]+ ' 造成了9999點光屬性傷害 ' + '\
+				AttackResult[i] = '\奧伯龍陷入爆走使用了' +  SkillResult[i]+ ' 造成了9999點光屬性傷害 ' + '\
                   \n END';
 		}
 		
