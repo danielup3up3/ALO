@@ -265,6 +265,17 @@ function Lv1SAODarkBoss(){
 	return rply;
 }
 
+function Lv1SAODark(){
+	rply.text = 'Lv.20 石像魔(怪物代碼105\
+				\n HP 8,000/8,000 ';
+	return rply;
+}
+
+function Lv1SAODarkBoss(){
+	rply.text = 'Lv.30 BOSS詛咒石魔(怪物代碼155\
+				\n HP 60,000/60,000 ';
+	return rply;
+}
 
 
 
