@@ -82,7 +82,7 @@ var rply ={type : 'text'}; //type是必需的,但可以更改
       }else if(monsterHP = '擊敗'){
 				//設定說明文內容
 				rply.text ='奧伯龍被擊敗了\
-				\n 全隊獲得了500EXP及100G';
+				\n 全隊獲得了10000EXP及5000G';
 				//
 				
 				return rply;//中斷+回傳值用
