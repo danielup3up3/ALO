@@ -197,6 +197,13 @@ function Gbear(){
 	return rply;
 }
 
+function SkyEasy(){
+	rply.text = 'Lv.50 奧伯龍(光) (怪物代碼1001\
+				\n HP 5,000,000/5,000,000 ';
+	return rply;
+}
+
+
 
 function easyKaze(){
 	rply.text = 'Lv.25 風之世界樹守衛(怪物代碼011\
@@ -494,6 +501,7 @@ module.exports = {
 	ya,
 	menu,
 	Hari,
+	SkyEasy,
 	Lv1SAOKaze,
 	Lv1SAOKazeBoss,
 	Lv1SAOFire,
