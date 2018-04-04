@@ -75,13 +75,13 @@ var rply ={type : 'text'}; //type是必需的,但可以更改
 			CharacterList4.length = 3;
 			CharacterList4= ['克萊因(火)','亞絲娜(水)','莉法(風)'];
 			CharacterList5.length = 8;
-			CharacterList5= ['伊芙(水)','伊芙(水)','伊芙(水)','西澤爾(闇)','齊維(土)','蓮和(火)','姌夜(風)','桐人(無)'];
+			CharacterList5= ['伊芙(水)','西澤爾(闇)','西澤爾(闇)','西澤爾(闇)','齊維(土)','蓮和(火)','姌夜(風)','桐人(無)'];
 			
 			characterChance1 = 35;
 			characterChance2 = 25;
 			characterChance3 = 20;
-			characterChance4 = 14;
-			characterChance5 = 6;
+			characterChance4 = 12;
+			characterChance5 = 8;
 
 			if(GachaTimes =='單抽'){
 				times = 1;
@@ -96,8 +96,8 @@ var rply ={type : 'text'}; //type是必需的,但可以更改
 					\n\
 					\n 提供割合： \
 					\n 妖精之舞角色系列 \
-					\n  SSR伊芙(水)pu 3倍\
-					\n  SSR西澤爾(闇)\
+					\n  SSR伊芙(水)\
+					\n  SSR西澤爾(闇)pu 3倍\
                                         \n  SSR齊維(土)\
 					\n  SSR蓮和(火)\
                                         \n  SSR姌夜(風)\
