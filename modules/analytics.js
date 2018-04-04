@@ -122,6 +122,7 @@ function parseInput(rplyToken, inputStr) {
 	
 	////////////////////////強化///////////////////
 	if (trigger.match(/^武器強化$/) != null) return exports.strengthenM.main(mainMsg[1]);
+	if (trigger.match(/^武器鑑定$/) != null) return exports.strengthenG.main(mainMsg[1]);
 	
 	//////////////////////////主線劇情彙整區////////////////////////////////
 	
