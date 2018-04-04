@@ -166,6 +166,7 @@ function parseInput(rplyToken, inputStr) {
 	if (trigger.match(/^回合結束001$/) != null) return exports.MonsterHariTest.main(mainMsg[1]);
 	if (trigger.match(/^回合結束002$/) != null) return exports.MonsterHariTest2.main(mainMsg[1]);
 	if (trigger.match(/^回合結束003$/) != null) return exports.MonsterGbear.main(mainMsg[1]);
+	if (trigger.match(/^回合結束1001$/) != null) return exports.MonLv1SKYBoss.main(mainMsg[1]);
 	//風之世界樹守衛(初級)
 	if (trigger.match(/^回合結束011$/) != null) return exports.MonstereasyKaze.main(mainMsg[1]);
 	//風之世界樹BOSS(初級)
