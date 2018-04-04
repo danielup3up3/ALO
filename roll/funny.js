@@ -253,6 +253,18 @@ function Lv1SAOWaterBoss(){
 	return rply;
 }
 
+function Lv1SAODark(){
+	rply.text = 'Lv.20 黑夜小僧(怪物代碼104\
+				\n HP 8,000/8,000 ';
+	return rply;
+}
+
+function Lv1SAODarkBoss(){
+	rply.text = 'Lv.30 BOSS赤夜巨靈(怪物代碼144\
+				\n HP 60,000/60,000 ';
+	return rply;
+}
+
 
 
 
@@ -508,6 +520,8 @@ module.exports = {
 	Lv1SAOFireBoss,
 	Lv1SAOWater,
 	Lv1SAOWaterBoss,
+	Lv1SAODark,
+	Lv1SAODarkBoss,
 	Gbear,
 	Hari2,
 	zA
