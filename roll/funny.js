@@ -278,6 +278,67 @@ function Lv1SAOSoilBoss(){
 }
 
 
+//////////////////////////////////////
+function Lv2SAOKaze(){
+	rply.text = 'Lv.50 迷宮風妖(怪物代碼201\
+				\n HP 50,000/50,000 ';
+	return rply;
+}
+
+function Lv2SAOKazeBoss(){
+	rply.text = 'Lv.50 BOSS涅里梅斯(怪物代碼211\
+				\n HP 1,000,000/1,000,000 ';
+	return rply;
+}
+
+function Lv2SAOFire(){
+	rply.text = 'Lv.50 炙熱野狼(怪物代碼202\
+				\n HP 50,000/50,000 ';
+	return rply;
+}
+
+function Lv2SAOFireBoss(){
+	rply.text = 'Lv.50 BOSS武士之魂(怪物代碼222\
+				\n HP 1,000,000/1,000,000 ';
+	return rply;
+}
+
+function Lv2SAOWater(){
+	rply.text = 'Lv.50 蒼之遺魂(怪物代碼203\
+				\n HP 50,000/50,000 ';
+	return rply;
+}
+
+function Lv2SAOWaterBoss(){
+	rply.text = 'Lv.50 BOSS焚海(怪物代碼233\
+				\n HP 1,000,000/1,000,000 ';
+	return rply;
+}
+
+function Lv2SAODark(){
+	rply.text = 'Lv.50 黑夜小僧(怪物代碼204\
+				\n HP 50,000/50,000 ';
+	return rply;
+}
+
+function Lv2SAODarkBoss(){
+	rply.text = 'Lv.50 BOSS赤夜巨靈(怪物代碼244\
+				\n HP 1,000,000/1,000,000 ';
+	return rply;
+}
+
+function Lv2SAOSoil(){
+	rply.text = 'Lv.50 石像魔(怪物代碼205\
+				\n HP 50,000/50,000 ';
+	return rply;
+}
+
+function Lv2SAOSoilBoss(){
+	rply.text = 'Lv.50 BOSS詛咒石魔(怪物代碼255\
+				\n HP 1,000,000/1,000,000 ';
+	return rply;
+}
+
 
 
 
@@ -536,6 +597,16 @@ module.exports = {
 	Lv1SAOSoil,
 	Lv1SAOSoilBoss,
 	Gbear,
+	Lv2SAOKaze,
+	Lv2SAOKazeBoss,
+	Lv2SAOFire,
+	Lv2SAOFireBoss,
+	Lv2SAOWater,
+	Lv2SAOWaterBoss,
+	Lv2SAODark,
+	Lv2SAODarkBoss,
+	Lv2SAOSoil,
+	Lv2SAOSoilBoss,
 	Hari2,
 	zA
 };
