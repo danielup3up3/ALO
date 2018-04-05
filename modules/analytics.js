@@ -195,6 +195,7 @@ function parseInput(rplyToken, inputStr) {
 	if (trigger.match(/^回合結束103$/) != null) return exports.MonLv1SAOWater.main(mainMsg[1]);
 	if (trigger.match(/^回合結束104$/) != null) return exports.MonLv1SAODark.main(mainMsg[1]);
 	if (trigger.match(/^回合結束105$/) != null) return exports.MonLv1SAOSoil.main(mainMsg[1]);
+	if (trigger.match(/^回合結束106$/) != null) return exports.MonLv1SAONone.main(mainMsg[1]);
 	//SAO(2)
 	if (trigger.match(/^回合結束201$/) != null) return exports.MonLv2SAOKaze.main(mainMsg[1]);
 	if (trigger.match(/^回合結束202$/) != null) return exports.MonLv2SAOFire.main(mainMsg[1]);
@@ -208,6 +209,7 @@ function parseInput(rplyToken, inputStr) {
 	if (trigger.match(/^回合結束133$/) != null) return exports.MonLv1SAOWaterBoss.main(mainMsg[1]);
 	if (trigger.match(/^回合結束144$/) != null) return exports.MonLv1SAODarkBoss.main(mainMsg[1]);
 	if (trigger.match(/^回合結束155$/) != null) return exports.MonLv1SAOSoilBoss.main(mainMsg[1]);
+	if (trigger.match(/^回合結束166$/) != null) return exports.MonLv1SAONoneBoss.main(mainMsg[1]);
 	//SAO(2BOSS)
 	if (trigger.match(/^回合結束211$/) != null) return exports.MonLv2SAOKazeBoss.main(mainMsg[1]);
 	if (trigger.match(/^回合結束222$/) != null) return exports.MonLv2SAOFireBoss.main(mainMsg[1]);
