@@ -277,6 +277,19 @@ function Lv1SAOSoilBoss(){
 	return rply;
 }
 
+function Lv1SAONone(){
+	rply.text = 'Lv.20 虛無鏡魔(怪物代碼106\
+				\n HP 8,000/8,000 ';
+	return rply;
+}
+
+function Lv1SAONoneBoss(){
+	rply.text = 'Lv.30 BOSS阿爾法(怪物代碼166\
+				\n HP 60,000/60,000 ';
+	return rply;
+}
+
+
 
 //////////////////////////////////////
 function Lv2SAOKaze(){
@@ -596,6 +609,8 @@ module.exports = {
 	Lv1SAODarkBoss,
 	Lv1SAOSoil,
 	Lv1SAOSoilBoss,
+	Lv1SAONone,
+	Lv1SAONoneBoss,
 	Gbear,
 	Lv2SAOKaze,
 	Lv2SAOKazeBoss,
