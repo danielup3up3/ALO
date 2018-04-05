@@ -156,18 +156,21 @@ function parseInput(rplyToken, inputStr) {
 	if (trigger.match(/^戰鬥103$/) != null) return exports.funny.Lv1SAOWater() ;
 	if (trigger.match(/^戰鬥104$/) != null) return exports.funny.Lv1SAODark() ;
 	if (trigger.match(/^戰鬥105$/) != null) return exports.funny.Lv1SAOSoil() ;
+	if (trigger.match(/^戰鬥106$/) != null) return exports.funny.Lv1SAONone() ;
 	//SAO(1BOSS)
 	if (trigger.match(/^戰鬥111$/) != null) return exports.funny.Lv1SAOKazeBoss() ;
 	if (trigger.match(/^戰鬥122$/) != null) return exports.funny.Lv1SAOFireBoss() ;
 	if (trigger.match(/^戰鬥133$/) != null) return exports.funny.Lv1SAOWaterBoss() ;
 	if (trigger.match(/^戰鬥144$/) != null) return exports.funny.Lv1SAODarkBoss() ;
 	if (trigger.match(/^戰鬥155$/) != null) return exports.funny.Lv1SAOSoilBoss() ;
+	if (trigger.match(/^戰鬥166$/) != null) return exports.funny.Lv1SAONoneBoss() ;
 	//SAO(2)
 	if (trigger.match(/^戰鬥201$/) != null) return exports.funny.Lv2SAOKaze() ;
 	if (trigger.match(/^戰鬥102$/) != null) return exports.funny.Lv1SAOFire() ;
 	if (trigger.match(/^戰鬥103$/) != null) return exports.funny.Lv1SAOWater() ;
 	if (trigger.match(/^戰鬥104$/) != null) return exports.funny.Lv1SAODark() ;
 	if (trigger.match(/^戰鬥105$/) != null) return exports.funny.Lv1SAOSoil() ;
+	
 	//SAO(2BOSS)
 	if (trigger.match(/^戰鬥211$/) != null) return exports.funny.Lv2SAOKazeBoss() ;
 	if (trigger.match(/^戰鬥122$/) != null) return exports.funny.Lv1SAOFireBoss() ;
