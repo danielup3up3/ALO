@@ -198,8 +198,8 @@ function Gbear(){
 }
 
 function KAZEBOSSEASY(){
-	rply.text = 'Lv.50 芬里爾(怪物代碼2001\
-				\n HP 500,000/500,000 ';
+	rply.text = 'Lv.50 風王芬里爾(風) (怪物代碼2001\
+				\n HP 1,000,000/1,000,000 ';
 	return rply;
 }
 
