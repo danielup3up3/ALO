@@ -229,6 +229,7 @@ function parseInput(rplyToken, inputStr) {
 	if (trigger.match(/^闇迷宮武器箱$/) != null) return exports.BLACKBOX.main(mainMsg[1]);
 	if (trigger.match(/^土迷宮武器箱$/) != null) return exports.SOIBOX.main(mainMsg[1]);
 	if (trigger.match(/^無迷宮武器箱$/) != null) return exports.NONEBOX.main(mainMsg[1]);
+	if (trigger.match(/^風王武器箱$/) != null) return exports.KAZEBOSSBOX.main(mainMsg[1]);
 	
 	/*tarot 指令
 	if (trigger.match(/猜拳/) != null) {
