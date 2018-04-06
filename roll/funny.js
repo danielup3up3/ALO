@@ -197,6 +197,12 @@ function Gbear(){
 	return rply;
 }
 
+function KAZEBOSSEASY(){
+	rply.text = 'Lv.50 芬里爾(怪物代碼2001\
+				\n HP 500,000/500,000 ';
+	return rply;
+}
+
 function SkyEasy(){
 	rply.text = 'Lv.50 奧伯龍(光) (怪物代碼1001\
 				\n HP 5,000,000/5,000,000 ';
@@ -612,6 +618,7 @@ module.exports = {
 	Lv1SAONone,
 	Lv1SAONoneBoss,
 	Gbear,
+	KAZEBOSSEASY,
 	Lv2SAOKaze,
 	Lv2SAOKazeBoss,
 	Lv2SAOFire,
