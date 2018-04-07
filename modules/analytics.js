@@ -143,7 +143,10 @@ function parseInput(rplyToken, inputStr) {
 	//////////////////////////怪物實戰設定區////////////////////////////////
 	//波波
 	if (trigger.match(/^回合結束0016$/) != null) return exports.PMpopo.main(mainMsg[1]);
-	
+	//可達鴨
+	if (trigger.match(/^回合結束0054$/) != null) return exports.PMduckya.main(mainMsg[1]);
+	//探探鼠
+	if (trigger.match(/^回合結束0504$/) != null) return exports.PMtantan.main(mainMsg[1]);
 	
 	
 	
