@@ -172,6 +172,7 @@ function RockPaperScissors(HandToCal, text) {
 ////////////////////////////////////////
 function popo(){
 	rply.text = 'Lv.5 波波(圖鑑代碼0016)\
+\n 捕獲成功率:(70-剩餘HP)% \
 				\n HP 22/22 ';
 	return rply;
 }
