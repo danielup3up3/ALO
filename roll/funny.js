@@ -625,6 +625,7 @@ module.exports = {
 	Lv1SAONone,
 	Lv1SAONoneBoss,
 	Gbear,
+	popo,
 	KAZEBOSSEASY,
 	Lv2SAOKaze,
 	Lv2SAOKazeBoss,
