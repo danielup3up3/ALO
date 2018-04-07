@@ -172,8 +172,22 @@ function RockPaperScissors(HandToCal, text) {
 ////////////////////////////////////////
 function popo(){
 	rply.text = 'Lv.5 波波(圖鑑代碼0016)\
-\n 捕獲成功率:(70-剩餘HP)% \
+\n 捕獲成功率:(75-剩餘HP)% \
 				\n HP 22/22 ';
+	return rply;
+}
+
+function duckya(){
+	rply.text = 'Lv.8 可達鴨(圖鑑代碼0054)\
+\n 捕獲成功率:(60-剩餘HP)% \
+				\n HP 28/28 ';
+	return rply;
+}
+
+function tantan(){
+	rply.text = 'Lv.3 探探鼠(圖鑑代碼0504)\
+\n 捕獲成功率:(80-剩餘HP)% \
+				\n HP 18/18 ';
 	return rply;
 }
 
@@ -627,6 +641,8 @@ module.exports = {
 	Lv1SAONoneBoss,
 	Gbear,
 	popo,
+	duckya,
+	tantan,
 	KAZEBOSSEASY,
 	Lv2SAOKaze,
 	Lv2SAOKazeBoss,
