@@ -129,6 +129,9 @@ function parseInput(rplyToken, inputStr) {
 	//序章劇情
 	if (trigger.match(/^冒險的開始$/) != null) return exports.PMstoriesZERO.main(mainMsg[1]);
 	
+	//////////////////////////PM資料彙整區////////////////////////////////
+	if (trigger.match(/^戰鬥0016$/) != null) return exports.funny.popo() ;
+	
 	
 	
 	
