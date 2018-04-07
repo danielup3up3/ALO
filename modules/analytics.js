@@ -133,7 +133,12 @@ function parseInput(rplyToken, inputStr) {
 	if (trigger.match(/^冒險的開始$/) != null) return exports.PMstoriesZERO.main(mainMsg[1]);
 	
 	//////////////////////////PM資料彙整區////////////////////////////////
+	//波波
 	if (trigger.match(/^戰鬥0016$/) != null) return exports.funny.popo() ;
+	//可達鴨
+	if (trigger.match(/^戰鬥0054$/) != null) return exports.funny.duckya() ;
+	//探探鼠
+	if (trigger.match(/^戰鬥0504$/) != null) return exports.funny.tantan() ;
 	
 	//////////////////////////怪物實戰設定區////////////////////////////////
 	//波波
