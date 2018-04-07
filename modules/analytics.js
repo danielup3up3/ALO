@@ -132,6 +132,10 @@ function parseInput(rplyToken, inputStr) {
 	//////////////////////////PM資料彙整區////////////////////////////////
 	if (trigger.match(/^戰鬥0016$/) != null) return exports.funny.popo() ;
 	
+	//////////////////////////怪物實戰設定區////////////////////////////////
+	//波波
+	if (trigger.match(/^回合結束0016$/) != null) return exports.PMpopo.main(mainMsg[1]);
+	
 	
 	
 	
