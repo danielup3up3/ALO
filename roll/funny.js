@@ -167,7 +167,14 @@ function RockPaperScissors(HandToCal, text) {
 	rply.text = returnStr;
 	return rply;
 }
-
+////////////////////////////////////////
+//////////////// PM資訊
+////////////////////////////////////////
+function popo(){
+	rply.text = 'Lv.5 波波(圖鑑代碼0016)\
+				\n HP 22/22 ';
+	return rply;
+}
 
 
 ////////////////////////////////////////
