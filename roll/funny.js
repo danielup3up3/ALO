@@ -219,6 +219,24 @@ function Gbear(){
 	return rply;
 }
 
+function Event1(){
+	rply.text = 'Lv.50 細劍少女靜奈normal(怪物代碼997\
+				\n HP 50000/50000 ';
+	return rply;
+}
+
+function Event2(){
+	rply.text = 'Lv.80 細劍少女靜奈hard(怪物代碼998\
+				\n HP 1,000,000/1,000,000 ';
+	return rply;
+}
+
+function Event3(){
+	rply.text = 'Lv.90 細劍少女靜奈veryhard(怪物代碼999\
+				\n HP 3,000,000/3,000,000 ';
+	return rply;
+}
+
 function KAZEBOSSEASY(){
 	rply.text = 'Lv.50 風王芬里爾(風) (怪物代碼2001\
 				\n HP 1,000,000/1,000,000 ';
@@ -640,6 +658,9 @@ module.exports = {
 	Lv1SAONone,
 	Lv1SAONoneBoss,
 	Gbear,
+	Event1,
+	Event2,
+	Event3,
 	popo,
 	duckya,
 	tantan,
