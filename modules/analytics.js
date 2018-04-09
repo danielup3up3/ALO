@@ -217,6 +217,10 @@ function parseInput(rplyToken, inputStr) {
 	
 	//////////////////////////怪物實戰設定區////////////////////////////////
 	
+	if (trigger.match(/^回合結束997$/) != null) return exports.MonsterEvent1.main(mainMsg[1]);
+	if (trigger.match(/^回合結束998$/) != null) return exports.MonsterEvent2.main(mainMsg[1]);
+	if (trigger.match(/^回合結束999$/) != null) return exports.MonsterEvent3.main(mainMsg[1]);
+	
 	//哈里
 	if (trigger.match(/^回合結束001$/) != null) return exports.MonsterHariTest.main(mainMsg[1]);
 	if (trigger.match(/^回合結束002$/) != null) return exports.MonsterHariTest2.main(mainMsg[1]);
