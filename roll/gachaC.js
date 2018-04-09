@@ -75,7 +75,7 @@ var rply ={type : 'text'}; //type是必需的,但可以更改
 			CharacterList4.length = 5;
 			CharacterList4= ['克萊因(火)','亞絲娜(水)','莉法(風)','絕劍有紀(闇)','懷爾斯(土)'];
 			CharacterList5.length = 8;
-			CharacterList5= ['伊芙(水)','西澤爾(闇)','蓮和(火)','蓮和(火)','齊維(土)','蓮和(火)','姌夜(風)','桐人(無)'];
+			CharacterList5= ['伊芙(水)','西澤爾(闇)','姌夜(風)','姌夜(風)','齊維(土)','蓮和(火)','姌夜(風)','桐人(無)'];
 			//
 			characterChance1 = 35;
 			characterChance2 = 25;
@@ -99,8 +99,8 @@ var rply ={type : 'text'}; //type是必需的,但可以更改
 					\n  SSR伊芙(水)\
 					\n  SSR西澤爾(闇)\
                                         \n  SSR齊維(土)\
-					\n  SSR蓮和(火)pu 3倍\
-                                        \n  SSR姌夜(風)\
+					\n  SSR蓮和(火)\
+                                        \n  SSR姌夜(風)pu 3倍\
                                         \n  SSR桐人(無)\
 					\n\
 					\n 提供招募方式：\
