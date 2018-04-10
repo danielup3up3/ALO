@@ -271,6 +271,8 @@ function parseInput(rplyToken, inputStr) {
 	if (trigger.match(/^無迷宮武器箱$/) != null) return exports.NONEBOX.main(mainMsg[1]);
 	if (trigger.match(/^風王武器箱$/) != null) return exports.KAZEBOSSBOX.main(mainMsg[1]);
 	
+	if (trigger.match(/^活動掉落箱$/) != null) return exports.EventBox.main(mainMsg[1]);
+	
 	/*tarot 指令
 	if (trigger.match(/猜拳/) != null) {
 		return RockPaperScissors(inputStr, mainMsg[1]);
