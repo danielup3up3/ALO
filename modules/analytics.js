@@ -180,7 +180,7 @@ function parseInput(rplyToken, inputStr) {
 	
 	if (trigger.match(/^靜奈normal$/) != null) return exports.funny.Event1() ;
 	if (trigger.match(/^靜奈hard$/) != null) return exports.funny.Event2() ;
-	if (trigger.match(/^靜奈vh$/) != null) return exports.funny.Event3() ;
+	if (trigger.match(/^靜奈veryhard$/) != null) return exports.funny.Event3() ;
 	
 	if (trigger.match(/^戰鬥1001|^大空鬥技場easy/) != null) return exports.funny.SkyEasy() ;
 	//風之世界樹守衛(初級)
