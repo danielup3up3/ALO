@@ -233,7 +233,8 @@ function Event2(){
 
 function Event3(){
 	rply.text = 'Lv.90 細劍少女靜奈veryhard(怪物代碼999\
-				\n HP 5,000,000/5,000,000 ';
+				\n HP 5,000,000/5,000,000 \
+	\n 怒氣槽0/4 ';
 	return rply;
 }
 
