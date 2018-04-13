@@ -19,7 +19,7 @@ var rply ={type : 'text'}; //type是必需的,但可以更改
     
     
     //靜奈HP 怒氣槽 0/2
-    if(monsterHP = 1){
+    if(monsterHP < 2){
 			//綠血區域時
 			times = 1
 	    
