@@ -670,6 +670,7 @@ module.exports = {
 	Event1,
 	Event2,
 	Event3,
+	Event4,
 	popo,
 	duckya,
 	tantan,
