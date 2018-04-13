@@ -181,6 +181,7 @@ function parseInput(rplyToken, inputStr) {
 	if (trigger.match(/^靜奈normal$/) != null) return exports.funny.Event1() ;
 	if (trigger.match(/^靜奈hard$/) != null) return exports.funny.Event2() ;
 	if (trigger.match(/^靜奈veryhard$/) != null) return exports.funny.Event3() ;
+	if (trigger.match(/^靜奈hall$/) != null) return exports.funny.Event4() ;
 	
 	if (trigger.match(/^戰鬥1001|^大空鬥技場easy/) != null) return exports.funny.SkyEasy() ;
 	//風之世界樹守衛(初級)
@@ -220,6 +221,7 @@ function parseInput(rplyToken, inputStr) {
 	if (trigger.match(/^回合結束997$/) != null) return exports.MonsterEvent1.main(mainMsg[1]);
 	if (trigger.match(/^回合結束998$/) != null) return exports.MonsterEvent2.main(mainMsg[1]);
 	if (trigger.match(/^回合結束999$/) != null) return exports.MonsterEvent3.main(mainMsg[1]);
+	if (trigger.match(/^回合結束1000$/) != null) return exports.MonsterEvent4.main(mainMsg[1]);
 	
 	//哈里
 	if (trigger.match(/^回合結束001$/) != null) return exports.MonsterHariTest.main(mainMsg[1]);
