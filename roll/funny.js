@@ -238,6 +238,14 @@ function Event3(){
 	return rply;
 }
 
+function Event4(){
+	rply.text = 'Lv.100 細劍少女靜奈hall(怪物代碼1000\
+				\n HP 80,000,000/80,000,000 \
+	\n 怒氣槽0/2 ';
+	return rply;
+}
+
+
 function KAZEBOSSEASY(){
 	rply.text = 'Lv.50 風王芬里爾(風) (怪物代碼2001\
 				\n HP 1,000,000/1,000,000 ';
