@@ -18,7 +18,7 @@ var rply ={type : 'text'}; //type是必需的,但可以更改
 		var SpecialChance = 0;//特殊技能機率
     
     
-    //火精靈AHP 1000/1000
+    //火精靈AHP 800/800
     if(monsterHP >= 800){
 			//綠血區域時
 			times = 1
@@ -31,13 +31,13 @@ var rply ={type : 'text'}; //type是必需的,但可以更改
 			
 			//設定綠血攻擊模式
 			SkillOne.length = 1;
-			SkillOne = ['斬擊'];
+			SkillOne = ['衝撞'];
 			
 			SkillTwo.length = 1;
-			SkillTwo = ['初級火焰球'];
+			SkillTwo = ['毒液噴射(小)'];
 			
 			SpecialSkill.length = 1;
-			SpecialSkill = ['炎之刃'];
+			SpecialSkill = ['吞噬'];
 			
       
       }else if(monsterHP < 800 && monsterHP >= 200){
@@ -51,13 +51,13 @@ var rply ={type : 'text'}; //type是必需的,但可以更改
 			
 			//設定黃血攻擊模式
 			SkillOne.length = 1;
-			SkillOne = ['斬擊'];
+			SkillOne = ['衝撞'];
 			
 			SkillTwo.length = 1;
-			SkillTwo = ['初級火焰球'];
+			SkillTwo = ['毒液噴射(小)'];
 			
 			SpecialSkill.length = 1;
-			SpecialSkill = ['炎之刃'];
+			SpecialSkill = ['吞噬'];
 			
 		
     
@@ -72,17 +72,17 @@ var rply ={type : 'text'}; //type是必需的,但可以更改
 			
 			//設定黃血攻擊模式
 			SkillOne.length = 1;
-			SkillOne = ['斬擊'];
+			SkillOne = ['衝撞'];
 			
 			SkillTwo.length = 1;
-			SkillTwo = ['初級火焰球'];
+			SkillTwo = ['毒液噴射(小)'];
 			
 			SpecialSkill.length = 1;
-			SpecialSkill = ['炎之刃'];
+			SpecialSkill = ['吞噬'];
       
       }else{
 				//設定說明文內容
-				rply.text ='錯誤002:輸入格式錯誤\
+				rply.text ='error code:002 輸入格式錯誤\
 				\n 請確認後重試一次，如果仍有問題請通報Bug給GM知道';
 				//
 				
@@ -108,19 +108,19 @@ var rply ={type : 'text'}; //type是必需的,但可以更改
 		if(temp > TwoChance + SpecialChance){
     
 			SkillResult[i] = SkillOne[Math.floor((Math.random() * (SkillOne.length)) + 0)];
-				AttackResult[i] = '\火精靈侍衛A使用了' +  SkillResult[i]+ ' 造成了200點無屬性傷害' +'\
+				AttackResult[i] = '\像是魷魚一樣的詭異生物使用了' +  SkillResult[i]+ ' 造成了200點傷害' +'\
                  \n END';
       
 		}else if(temp <=TwoChance + SpecialChance && temp >SpecialChance ){
     
 			SkillResult[i] = SkillTwo[Math.floor((Math.random() * (SkillTwo.length)) + 0)];
-				AttackResult[i] = '\火精靈侍衛A使用了' +  SkillResult[i]+ ' 造成了150點火屬性傷害' +'\
+				AttackResult[i] = '\像是魷魚一樣的詭異生物使用了' +  SkillResult[i]+ ' 造成了150點傷害，並使我方目標單體中毒1回合' +'\
                  \n END';
         
 		}else if(temp <= SpecialChance){
 			
 			SkillResult[i] = SpecialSkill[Math.floor((Math.random() * (SpecialSkill.length)) + 0)];
-				AttackResult[i] = '\火精靈侍衛A使用了' +  SkillResult[i]+ ' 造成了300點火屬性傷害' + '\
+				AttackResult[i] = '\像是魷魚一樣的詭異生物使用了' +  SkillResult[i]+ ' 造成了300點傷害' + '\
                   \n END';
 		}
 		
