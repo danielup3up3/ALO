@@ -80,7 +80,14 @@ var rply ={type : 'text'}; //type是必需的,但可以更改
 			SpecialSkill.length = 1;
 			SpecialSkill = ['吞噬'];
       
-      }else{
+       }else if(monsterHP = '擊敗'){
+				//設定說明文內容
+				rply.text ='像是魷魚一樣的詭異生物 被擊敗了\
+				\n 全隊獲得了200G及10個群青魔方';
+				//
+				
+				return rply;//中斷+回傳值用
+		}else{
 				//設定說明文內容
 				rply.text ='error code:002 輸入格式錯誤\
 				\n 請確認後重試一次，如果仍有問題請通報Bug給GM知道';
