@@ -86,7 +86,7 @@ CorEresult = Gmoneylist.concat(Stonelist,Decorelist);
 
     
     rply.text = '太棒了！！\
-		\n你獲得了核心「' + CorEresult[Math.floor((Math.random() * (CorEresult.length)))] + '」';
+		\n你獲得了角色「' + CorEresult[Math.floor((Math.random() * (CorEresult.length)))] + '」';
     
 return rply;
 
