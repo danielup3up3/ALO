@@ -29,13 +29,13 @@ var rply ={type : 'text'}; //type是必需的,但可以更改
 			
 			//設定獎勵內容
 			BonusListN.length = 1;
-			BonusListN = ['50G'];
+			BonusListN = ['50圓'];
 			
 			BonusListR.length = 1;
-			BonusListR = ['100G'];
+			BonusListR = ['100圓'];
 			
 			BonusListP.length = 1;
-			BonusListP = ['星輝石x1'];
+			BonusListP = ['緣分碎片x1'];
 			
 			//
 			
