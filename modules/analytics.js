@@ -89,6 +89,7 @@ function parseInput(rplyToken, inputStr) {
 	if (trigger.match(/瑪姬娜醬|瑪姬娜/) != null) return exports.funny.randomReply() ;
 	if (trigger.match(/C8763|星爆氣流斬/) != null) return exports.funny.C8763() ;
 	if (trigger.match(/^野$/) != null) return exports.funny.ya() ;
+	if (trigger.match(/^寶箱鑑定$/) != null) return exports.funny.bbox() ;
 	if (trigger.match(/^炸$/) != null) return exports.funny.zA() ;
 	if (trigger.match(/運氣|運勢/) != null) return exports.funny.randomLuck(mainMsg) ; //占卜運氣	
 	if (trigger.match(/^選單$/) != null) return exports.funny.menu() ;
